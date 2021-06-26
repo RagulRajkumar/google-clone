@@ -99,5 +99,18 @@ ul {
     border:1px solid #4885ed;
     padding: 9px 19px;
   }
-  
+  @media screen and (max-width:574px) {
+    .bar{
+      display: flex;
+      width: 350px;
+    }
+    .search-s{
+      padding-top: 15px;
+      padding-left: 10px;
+    }
+    .voice{
+      top: 10px;
+      margin-right: 15px
+    }
+  }
   
